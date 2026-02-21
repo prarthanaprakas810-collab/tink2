@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="./img.png" alt="Project Banner" width="100%">
-</p>
+<img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/a7089668-a7db-408d-a7b6-78d733448162" /><img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/d8ac1ef8-f343-444b-9a73-e953f229c1b9" />
+
 
 # KAALAN.AI 🎯
 
@@ -9,9 +8,7 @@
 ### Team Name: TechKaalam
 
 ### Team Members
-- Prarthana P – [Your College Name]
-- [Member 2 Name] – [College Name]
-- [Member 3 Name] – [College Name]
+- Prarthana P – Viswajyothi College Of Engineering And Technology
 
 ### Hosted Project Link
 https://kaalam-ai.vercel.app
@@ -423,3 +420,4 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ---
 
 Made with ❤️ at TinkerHub[]
+
