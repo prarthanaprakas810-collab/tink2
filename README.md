@@ -11,7 +11,7 @@
 - Prarthana P – Viswajyothi College Of Engineering And Technology
 
 ### Hosted Project Link
-https://kaalam-ai.vercel.app
+https://prarthanaprakas810-collab.github.io/tink2/
 
 ### Project Description
 Kaalam.AI is a web application that analyzes user health data and lifestyle inputs to predict potential health risks and life expectancy trends using AI models.
@@ -420,5 +420,6 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ---
 
 Made with ❤️ at TinkerHub[]
+
 
 
