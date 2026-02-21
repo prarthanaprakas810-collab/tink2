@@ -1,4 +1,4 @@
-<img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/a7089668-a7db-408d-a7b6-78d733448162" /><img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/d8ac1ef8-f343-444b-9a73-e953f229c1b9" />
+<img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/a7089668-a7db-408d-a7b6-78d733448162" />
 
 
 # KAALAN.AI 🎯
@@ -420,4 +420,5 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ---
 
 Made with ❤️ at TinkerHub[]
+
 
