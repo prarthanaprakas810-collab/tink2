@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAALAN CHECK</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="loader">Consulting Kaalam…</div>
+    <div class="container">
+        <h1>KAALAN CHECK</h1>
+        <p>Upload your medical record or manually enter values, add lifestyle info and your zodiac sign for a sarcastic Life Chaos Score. Entertainment only.</p>
+
+        <form id="dataForm">
+            <label for="file">Medical Record (PDF/Image)</label>
+            <input type="file" id="file" name="file" accept=".pdf,image/*">
+
+            <label for="bp">Blood Pressure (systolic mmHg)</label>
+            <input type="number" id="bp" name="bp" min="0" max="300" placeholder="120">
+
+            <label for="sugar">Sugar Level (mg/dL)</label>
+            <input type="number" id="sugar" name="sugar" min="0" max="500" placeholder="90">
+
+            <label for="cholesterol">Cholesterol (mg/dL)</label>
+            <input type="number" id="cholesterol" name="cholesterol" min="0" max="400" placeholder="150">
+
+            <label for="diet">Diet Habits</label>
+            <textarea id="diet" name="diet" rows="2" placeholder="Describe your diet"></textarea>
+
+            <label for="sleep">Sleep Hours per Night</label>
+            <input type="number" id="sleep" name="sleep" min="0" max="24" placeholder="6">
+
+            <label for="stress">Stress Level (1-10)</label>
+            <input type="range" id="stress" name="stress" min="0" max="10" value="5">
+
+            <label for="water">Water Intake (glasses/day)</label>
+            <input type="number" id="water" name="water" min="0" max="20" placeholder="4">
+
+            <label for="exercise">Exercise Frequency (days/week)</label>
+            <input type="number" id="exercise" name="exercise" min="0" max="7" placeholder="1">
+
+            <label for="zodiac">Zodiac Sign</label>
+            <select id="zodiac" name="zodiac">
+                <option>Aries</option>
+                <option>Taurus</option>
+                <option>Gemini</option>
+                <option>Cancer</option>
+                <option>Leo</option>
+                <option>Virgo</option>
+                <option>Libra</option>
+                <option>Scorpio</option>
+                <option>Sagittarius</option>
+                <option>Capricorn</option>
+                <option>Aquarius</option>
+                <option>Pisces</option>
+            </select>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+
+            <button type="submit">Consult</button>
+        </form>
+
+        <div id="results"></div>
+
+        <div id="disclaimer">
+            <p><strong>Disclaimer:</strong> This platform is for entertainment and lifestyle awareness only. It does not provide medical advice or predict lifespan.</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

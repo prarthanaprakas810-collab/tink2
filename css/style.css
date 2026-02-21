@@ -1,0 +1,105 @@
+/* dark purple neon theme */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e0033;
+    color: #e0e0e0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffff;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: #300050;
+    border: 1px solid #6600cc;
+    color: #fff;
+}
+
+button {
+    background: #6600cc;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #8800ee;
+}
+
+/* loading overlay */
+#loader {
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.85);
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    padding-top:200px;
+    z-index:1000;
+    animation: flicker 1.5s infinite;
+}
+
+@keyframes flicker {
+    0%, 100%{opacity:1;}
+    50%{opacity:0.7;}
+}
+
+/* result section */
+#results {
+    display: none;
+    margin-top: 30px;
+    border: 2px solid #ff00ff;
+    padding: 20px;
+    background: #2a002a;
+}
+
+.meme {
+    max-width: 100%;
+}
+
+/* simple neon meter */
+.meter {
+    height: 20px;
+    background: #300050;
+    border: 1px solid #6600cc;
+    margin-top: 5px;
+}
+.meter-fill {
+    height: 100%;
+    background: #ff00ff;
+    width: 0%;
+    transition: width 1s ease;
+}
+
+/* disclaimer */
+#disclaimer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #ccc;
+    text-align: center;
+}
